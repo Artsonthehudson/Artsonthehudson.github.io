@@ -1,0 +1,122 @@
+body {
+    background-color:black;
+    font-family: 'Spectral SC', serif;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 5em;
+}
+
+h3{
+    font-size:40px;
+}
+
+.eventimage{
+    background-image:url('../images/Events.jpg');
+    background-size: auto 100%;
+    background-position: center;
+    max-width: 100%;
+    height: 500px;
+    align: center;
+}
+
+.mainimage{
+    background-image:url('../images/grigoryArt.jpg');
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height: 500px;
+    align: center;
+}
+
+@media all and (max-width: 1200px) { /* screen size until 1200px */
+    h1 {
+        font-size: 5em; /* 1.5x default size */
+    }
+}
+@media all and (max-width: 1000px) { /* screen size until 1000px */
+    h1 {
+        font-size: 4em; /* 1.2x default size */
+        }
+    h3 {
+        font-size:30px;
+        }    
+    }
+@media all and (max-width: 800px) { /* screen size until 1000px */
+        h1 {
+            font-size: 3em; 
+            }
+        h3 {
+            font-size:30px;
+            }    
+        }
+
+@media all and (max-width: 500px) { /* screen size until 500px */
+    h1 {
+        font-size: 3em; /* 0.8x default size */
+        }
+    h3{
+        font-size:20px;
+        }    
+    h4{
+        font-size:15px;
+    }    
+    .mainimage{
+        background-position: 50%;
+        }
+    }
+
+.navbar-brand {
+    color:black;
+}
+
+.maintext{
+    background-color:rgba(1, 0, 5, 0.7)
+}
+
+.logo {
+    padding:20px;
+    width:700px;
+    max-height:auto;
+}
+
+.content{
+	text-align: center;
+    color: rgb(250, 250, 250);
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0, 0, 0, 0.1),
+                 0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+.work-text{
+    text-align:center;
+    color: #FFFCEA;
+    background-color: #2A3354;
+    padding-top: 2%;
+}
+
+.contact{
+    background-color:blue;
+}
+
+.new{
+    background-color:#f44037;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.work:hover { 
+    opacity:.8;
+}
