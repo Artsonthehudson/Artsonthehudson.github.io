@@ -43,10 +43,18 @@ h3{
     border: 8px solid white;
 }
 
+#contactform{
+    margin: 0 auto; 
+    padding-left:410px;
+    
+    
+}
+
 @media all and (max-width: 1200px) { /* screen size until 1200px */
     h1 {
         font-size: 5em; /* 1.5x default size */
     }
+
 }
 @media all and (max-width: 1000px) { /* screen size until 1000px */
     h1 {
@@ -55,6 +63,7 @@ h3{
     h3 {
         font-size:30px;
         }    
+    
     }
 @media all and (max-width: 800px) { /* screen size until 1000px */
         h1 {
@@ -62,7 +71,11 @@ h3{
             }
         h3 {
             font-size:30px;
-            }    
+            }  
+        #contactform{
+                padding-left:0px;
+            } 
+         
         }
 
 @media all and (max-width: 500px) { /* screen size until 500px */
