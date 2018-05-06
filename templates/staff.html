@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% block head %}
+
+		<!-- Three -->
+		<section id="main" class="wrapper">
+			<header class ='astaff'>
+				<h2>The Staff</h2>
+				<p>Who make it happen.</p>
+			</header>
+
+			<section id="three" class="wrapper style1">
+				<div class="inner">
+					<div class="spotlights">
+						{% for person in staff %}
+							{% if loop.index % 2 != 0%}
+						<section>
+							<span class="image"><img src="images/{{person[2]}}" alt="" /></span>
+							<div class="content">
+								<h2>{{person[0]}} - {{person[1]}}</h2>
+								<p>{{person[3]}}</p>
+							</div>
+						</section>
+
+						{% endif %}
+						
+						{% if loop.index % 2 == 0%}
+						<section>
+							<span class="image"><img src="images/{{person[2]}}" alt="" /></span>
+							<div class="content">
+								<h2>{{person[0]}} - {{person[1]}}</h2>
+								<p>{{person[3]}}</p>
+							</div>
+						</section>
+
+						{% endif %}
+						{% endfor %}
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+		{% include "footer.html" %}
+		{% block foot %} {% endblock %}
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+	{% endblock %}
+</html>

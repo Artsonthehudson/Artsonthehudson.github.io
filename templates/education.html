@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{% block head %}
+
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<header class = '{{cssclass}}'>
+					<h2>Education</h2>
+					<p>Lorem justo in tellus aenean lacinia felis.</p>
+				</header>
+
+				<section id="three" class="wrapper style1">
+					<div class="inner">
+						<div class="spotlights">
+							{% for program in programs %}
+							<section>
+								<a href = "education-{{program[6]}}">
+									<span class="aimage"><img src="images/{{program[4]}}" alt="" /></span>
+								</a>
+								<div class="content">
+									<h2>{{program[1]}} </h2> 
+										<p>{{program[2]}} </p>
+									<br>
+									<a href="education-{{program[6]}}" class="button special small abutton">Read More</a>
+								</div>
+								
+							</section>
+	
+							{% endfor %}
+						</div>
+					</div>
+				</section>
+
+{% include "footer.html" %}
+{% block foot %} {% endblock %}
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+    </body>
+    {% endblock %}
+    
+</html>

@@ -1,1 +1,0 @@
-# Artsonthehudson.github.io

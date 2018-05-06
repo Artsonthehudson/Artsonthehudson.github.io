@@ -1,0 +1,42 @@
+#banner{
+    background-image:url('../../images/logo.png');
+}
+
+.wrapper{
+    padding: 0 0 3em 0;
+}
+
+.awrapper{
+    padding: 3em 0 3em 0;
+}
+
+.asmall-logo{
+    height:7em;
+    padding-bottom:2em;
+}
+
+.amenu:hover{
+    background-color:rgb(235, 235, 253);
+}
+
+.aeducation{
+    background-image:url('../../images/education1.jpg');
+    padding: 10em 0 10em 0;
+}
+
+.aevents{
+    background-image:url('../../images/eventsbackground.jpg');
+    padding: 10em 0 10em 0;
+}
+
+.aprogram{
+    padding: 10em 0 3em 0;
+}
+
+.aventpage{
+    padding: 10em 0 3em 0;
+}
+
+.aevent-p{
+    margin:0;
+}

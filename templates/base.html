@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<!--
+	Prototype by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+-->
+<html>
+	<head>
+		<title>{{ title }}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/aoth.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />		
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header" class="alt">
+				<h1><a href="index.html">Arts On the Hudson</a></h1>
+				<a href="#menu">Menu</a>
+			</header>
+
+		<!-- Menu -->
+			<nav id="menu">
+				<ul class="links">
+                    <li><a class = 'amenu' href="index.html">Home</a></li>
+					<li><a class = 'amenu' href="education">Education & Programming</a></li>
+					<li><a class = 'amenu' href="events">Events</a></li>
+					<li><a class = 'amenu' href="staff">The Team</a></li>
+					<li><a class = 'amenu' href="#">Pyrrhic Productions</a></li>
+                </ul>
+                <br />
+				<ul class="actions vertical">
+					<li><a href="contact" class="button special fit">Contact Us</a></li>
+					<li><a href="give" class="button fit">Donate</a></li>
+				</ul>
+			</nav>
+
+            {% block head %}{% endblock %}

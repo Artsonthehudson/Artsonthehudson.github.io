@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+{% block head %}
+
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<header>
+					<h2>Contact</h2>
+					<p>drop us a line</p>
+				</header>
+
+				<section>
+					<div class = 'container'>
+						<h3>Form</h3>
+						<form action="//formspree.io/contact@artsonthehudson.com" method="POST" >
+							<div class="row uniform">
+								<div class="6u 12u$(xsmall)">
+									<label for="demo-name">Name</label>
+									<input type="text" name="name" id="name" value="" />
+								</div>
+								<div class="6u$ 12u$(xsmall)">
+									<label for="demo-email">Email</label>
+									<input type="email" name="_replyto" id="email" value="" />
+								</div>
+								<div class="12u$">
+									<label for="message">Message</label>
+									<textarea name="message" id="comments" rows="6"></textarea>
+								</div>
+								<div class="12u$">
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="special" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</div>
+							</div>
+						</form>
+					</div>
+					</section>
+
+{% include "footer.html" %}
+{% block foot %} {% endblock %}
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+    </body>
+    {% endblock %}
+    
+</html>

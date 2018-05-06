@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<!--
+	Prototype by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+-->
+<html>
+	<head>
+		<title>Events | Jersey City | Arts on the Hudson</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/aoth.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />		
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header" class="alt">
+				<h1><a href="index.html">Arts On the Hudson</a></h1>
+				<a href="#menu">Menu</a>
+			</header>
+
+		<!-- Menu -->
+			<nav id="menu">
+				<ul class="links">
+                    <li><a class = 'amenu' href="index.html">Home</a></li>
+					<li><a class = 'amenu' href="education">Education & Programming</a></li>
+					<li><a class = 'amenu' href="events">Events</a></li>
+					<li><a class = 'amenu' href="staff">The Team</a></li>
+					<li><a class = 'amenu' href="#">Pyrrhic Productions</a></li>
+                </ul>
+                <br />
+				<ul class="actions vertical">
+					<li><a href="contact" class="button special fit">Contact Us</a></li>
+					<li><a href="give" class="button fit">Donate</a></li>
+				</ul>
+			</nav>
+
+            
+
+		<!-- Main -->
+			<section id="main" class="wrapper">
+                <header class = 'aevents'>
+					<h2>Events</h2>
+					<p>pastevents.</p>
+				</header>
+
+                <section id="three" class="wrapper style1">
+                        <div class="inner">
+                            <div class="spotlights">  
+                        
+                        
+
+                        
+                        <h2>Past Events</h2>
+                        <a href = 'events'>
+                            <h1> See Upcoming Events </h1>
+                        </a>
+
+                        
+
+                        
+
+                                
+                        
+                        
+                        <section>
+                            <span class="aimage"><img src="images/pic03.jpg" alt="" /></span>
+                            <div class="content">
+                                    <h2>old event </h2> 
+                                    <p class ='aevent-p'> 2018-04-01 -- Pugoet sound 10290<br>7:00pm</p> 
+                
+                                    ---------------------------------
+                                    <br>
+                                    <p class ='aevent-p'>Doe and Deer a female deer</p> 
+                                    <br>
+                                    <a href="events-event4" class="button special small abutton">Read More</a>
+
+
+                            </div>
+                        </section>
+
+                        
+                        <section>
+                            <span class="aimage"><img src="images/pic02.jpg" alt="" /></span>
+                            <div class="content">
+                                    <h2>Dope past event </h2> 
+                                    <p class ='aevent-p'> 2018-05-01 -- 389 Main place<br>6:00pm</p> 
+                
+                                    ---------------------------------
+                                    <br>
+                                    <p class ='aevent-p'>Yeah man this event is the shit</p> 
+                                    <br>
+                                    <a href="events-event2" class="button special small abutton">Read More</a>
+
+
+                            </div>
+                        </section>
+
+                        
+                        
+                            </div>
+                        </div>
+                    </section>
+
+
+		<!-- Footer -->
+        <footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://www.facebook.com/groups/210561549077640/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.instagram.com/artsonthehudson/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+					</ul>
+					<ul class="contact">
+						<li>Jersey City, NJ 07302</li>
+					</ul>
+					<ul class="links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="donate.html">Donate</a></li>
+						<li><a href="pyrrhicproductions.com">Pyrrhic Productions</a></li>
+					</ul>
+					<p class="copyright">&copy; Arts on the Hudson 2018. All rights reserved.</p>
+				</div>
+			</footer>
+
+         
+ 
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+    </body>
+    

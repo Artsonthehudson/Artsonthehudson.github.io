@@ -1,0 +1,197 @@
+<!DOCTYPE HTML>
+<!--
+	Prototype by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+-->
+<html>
+	<head>
+		<title>Staff | Jersey City | Arts on the Hudson</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/aoth.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />		
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header" class="alt">
+				<h1><a href="index.html">Arts On the Hudson</a></h1>
+				<a href="#menu">Menu</a>
+			</header>
+
+		<!-- Menu -->
+			<nav id="menu">
+				<ul class="links">
+                    <li><a class = 'amenu' href="index.html">Home</a></li>
+					<li><a class = 'amenu' href="education">Education & Programming</a></li>
+					<li><a class = 'amenu' href="events">Events</a></li>
+					<li><a class = 'amenu' href="staff">The Team</a></li>
+					<li><a class = 'amenu' href="#">Pyrrhic Productions</a></li>
+                </ul>
+                <br />
+				<ul class="actions vertical">
+					<li><a href="contact" class="button special fit">Contact Us</a></li>
+					<li><a href="give" class="button fit">Donate</a></li>
+				</ul>
+			</nav>
+
+            
+
+		<!-- Three -->
+		<section id="main" class="wrapper">
+			<header class ='astaff'>
+				<h2>The Staff</h2>
+				<p>Who make it happen.</p>
+			</header>
+
+			<section id="three" class="wrapper style1">
+				<div class="inner">
+					<div class="spotlights">
+						
+							
+						<section>
+							<span class="image"><img src="images/alexStaffLogo.jpg" alt="" /></span>
+							<div class="content">
+								<h2>Alex Gurevich - Executive Director</h2>
+								<p>Alex was born and raised in Jersey City. His previous jobs have included theater carpenter, stagehand and rigger. He recalls his first job as delivery boy for a florist shop, biking all around JC delivering bouquets. Alex&#39;s father, Grigory Gurevich, formed Arts on the Hudson to benefit the community in Jersey City in the early 80s, when there was no such directive in the city. Growing up, Alex attended many of the Arts on the Hudson after-school classes giving him the opportunity to try out and learn about many forms of art. Because of these programs, he believes he has been permanently impacted and has become a strong advocate of the arts. Alex has been involved with Arts on the Hudson alongside his father since he was a kid, and now is so excited to revitalize and adapt the initiative to continue to serve the Jersey City arts community. </p>
+							</div>
+						</section>
+
+						
+						
+						
+						
+							
+						
+						
+						<section>
+							<span class="image"><img src="images/chrisStaffLogo.jpg" alt="" /></span>
+							<div class="content">
+								<h2>Chris Colonnese - Production Manager</h2>
+								<p>Chris was born in Central Jersey, and has found a home in one city of New Jersey after another. The sense of community in the Jersey City arts scene, however, has proven itself more powerful than the pull of rampant nomadicism and, since 2014, the Heights have been home. Chris is a multi-instrumentalist with a love for New Jersey&#39;s underground punk scene, and a DIY approach to projects . Chris has worked as a high school teacher for 8 years now.  Chris looks forward to working with and connecting artists of a diversity of backgrounds and media as AOTH expands and unites the art scene of the greater Jersey City metropolitan community and beyond! </p>
+							</div>
+						</section>
+
+						
+						
+							
+						<section>
+							<span class="image"><img src="images/ianStaffLogo.jpg" alt="" /></span>
+							<div class="content">
+								<h2>Ian London - Director of Photography</h2>
+								<p>Ian London first arrived in Jersey City from the deck of a historic sailing ship. Ian is psyched about promoting local artists though film, and helping the inclusive creative community in JC to grow. Outside of Pyrrhic Productions, he is wrapping up production on a short comedy gore horror film about inanimate objects.</p>
+							</div>
+						</section>
+
+						
+						
+						
+						
+							
+						
+						
+						<section>
+							<span class="image"><img src="images/None" alt="" /></span>
+							<div class="content">
+								<h2>David Acosta - Director of Events/Business Development</h2>
+								<p>David was born and raised in the Greenville section of Jersey City and continues to live there now. David is a freelance musician and actor; also, a proud geek who works at a local comic shop. He received his BA in Theater Arts from MSU and since then has been paving his own path as an independent artist and inspiring others that share this dream. He is passionate about empowering local artists and creating spaces to bring people together. With Arts on the Hudson, he is especially looking forward to expanding art programming for youth. You can find David performing all around NJ as well as hosting fundraisers which bring together local artists and raise awareness to the issues close to his heart. </p>
+							</div>
+						</section>
+
+						
+						
+							
+						<section>
+							<span class="image"><img src="images/None" alt="" /></span>
+							<div class="content">
+								<h2>Karla Aybar - Administrative and Teaching Assistant</h2>
+								<p>Karla was born in the Dominican Republic and moved to Jersey City when she was three. Growing up, she was very involved with theater and believes this positively shaped a large part of her identity. Karla recalls how it was through art programs she felt she was a part of her community, so she thrilled to reconnect with the community through Arts on the Hudson. Karla has worked with children all her life and most recently was a counseling intern, learning more about childhood psychology and development. She is excited about providing a platform through which people who might not otherwise be able to express themselves have access to the support and materials they need to realize their creative goals.</p>
+							</div>
+						</section>
+
+						
+						
+						
+						
+							
+						
+						
+						<section>
+							<span class="image"><img src="images/nateStaffLogo.jpg" alt="" /></span>
+							<div class="content">
+								<h2>Nate Spilman - Director of IT</h2>
+								<p>Nate was born and raised in Jersey City and benefited from Arts on the Hudson programs growing up. He believes that arts non profits are an important cornerstone of a city’s culture, so he is thrilled to be apart of the ongoing projects with Arts on the Hudson. Nate works for a tech company and was in the band Wine and Dinosaurs! He looks forward to using web development and IT to make scheduling events fun, and to easily connect and grow the network of artists throughout the NJ area. </p>
+							</div>
+						</section>
+
+						
+						
+							
+						<section>
+							<span class="image"><img src="images/None" alt="" /></span>
+							<div class="content">
+								<h2>Katarina La Poll - Creative Content Director</h2>
+								<p>Katarina was born and raised in the Bay Area, California and moved to NYC roughly 5 years ago wanting to immerse herself in the vibrant arts community. She met the creatives behind Arts on the Hudson after being cast in a film by Alex and Chris, a kind of &#39;Jersey City Alice in Wonderland&#39; tale, two summers ago. Since then she has been collaborating with members of Arts on the Hudson, and is excited to join the team as she strongly believes in the the mission. Katarina has worked with elementary school arts education programs in CA and as an editorial/advertising assistant in NYC writing and promoting camp/after-school programs for K-12. She is currently pursuing her MFA in Creative Writing and is excited to share her love of theater, dance, and poetry with Arts on the Hudson. </p>
+							</div>
+						</section>
+
+						
+						
+						
+						
+							
+						
+						
+						<section>
+							<span class="image"><img src="images/None" alt="" /></span>
+							<div class="content">
+								<h2>Alex Goold - Visual Media Editor</h2>
+								<p>Alex was born in NYC and raised in Jersey City, down on the West Side. His background includes 3D animation and compositing. He has worked as an after school music teacher, and was also in the band Wine and Dinosaurs! Alex has been involved in acting, music, and visual arts for the majority of his life, so he is happy to get back into the art scene with Arts on the Hudson and use his experience with video post-production and CGI to create aesthetically exciting content that clients are excited to share. </p>
+							</div>
+						</section>
+
+						
+						
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+				<!-- Footer -->
+        <footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://www.facebook.com/groups/210561549077640/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.instagram.com/artsonthehudson/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+					</ul>
+					<ul class="contact">
+						<li>Jersey City, NJ 07302</li>
+					</ul>
+					<ul class="links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="donate.html">Donate</a></li>
+						<li><a href="pyrrhicproductions.com">Pyrrhic Productions</a></li>
+					</ul>
+					<p class="copyright">&copy; Arts on the Hudson 2018. All rights reserved.</p>
+				</div>
+			</footer>
+
+         
+		 
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+	

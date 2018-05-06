@@ -1,46 +1,91 @@
-<!DOCTYPE HTML>
-<Html>
+{% extends 'base.html' %}
+{% block head %}
 
-    <head>
-        <title>Pyrrhic Productions</title> 
-        <meta name="viewport" content="width=device-width" />
-        <link rel ="stylesheet"type = "text/css" href = "css/bootstrap.css">
-        <link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-        <link rel ="stylesheet"type = "text/css" href = "css/pyrrhic.css">
-        <link rel="icon" href="images/pyrrhic_logo_2.jpg">        
-    </head>
-    <body>
+		<!-- Main -->
+			<section id="main" class="wrapper">
+                <header class = '{{cssclass}}'>
+					<h2>Events</h2>
+					<p>{{event}}.</p>
+				</header>
+
+                <section id="three" class="wrapper style1">
+                        <div class="inner">
+                            <div class="spotlights">  
+                        
+                        {% if event == 'events' %}
+                        <h2>Upcoming Events</h2>
+                        <a href = 'pastevents'>
+                            <h1> See Past Events </h1>
+                        </a>
+
+                        {% endif %}
+
+                        {% if event == 'pastevents' %}
+                        <h2>Past Events</h2>
+                        <a href = 'events'>
+                            <h1> See Upcoming Events </h1>
+                        </a>
+
+                        {% endif %}
+
+                        {% if event == 'events' %}
+                                {% for event in upcomingevents %}
+                                <section>
+                                    <span class="aimage"><img src="images/{{event[4]}}" alt="" /></span>
+                                    <div class="content">
+                                        <h2>{{event[1]}} </h2> 
+                                        <p class ='aevent-p'> {{event[7]}} -- {{event[9]}}<br>{{event[8]}}</p> 
+                    
+                                        ---------------------------------
+                                        <br>
+                                        <p class ='aevent-p'>{{event[2]}}</p> 
+                                        <br>
+                                        <a href="events-{{event[6]}}" class="button special small abutton">Read More</a>
+
+                                    </div>
+                                </section>
+        
+                                {% endfor %}
+                                {% endif %}
+
+                                
+                        {% if event == 'pastevents' %}
+                        {% for event in pastevents %}
+                        <section>
+                            <span class="aimage"><img src="images/{{event[4]}}" alt="" /></span>
+                            <div class="content">
+                                    <h2>{{event[1]}} </h2> 
+                                    <p class ='aevent-p'> {{event[7]}} -- {{event[9]}}<br>{{event[8]}}</p> 
                 
-        <div class ="row">
-            <div class="jumbotron eventimage col-lg-12 col-md-12 col-sm-6">
-                <div class ="container">
-                    <div class ="row">
-                        <div class="content maintext col-lg-12 col-md-12 col-sm-12">
-                                <h1>Pyrrhic Events</h1>
+                                    ---------------------------------
+                                    <br>
+                                    <p class ='aevent-p'>{{event[2]}}</p> 
+                                    <br>
+                                    <a href="events-{{event[6]}}" class="button special small abutton">Read More</a>
+
+
+                            </div>
+                        </section>
+
+                        {% endfor %}
+                        {% endif %}
+                            </div>
                         </div>
-                    </div>        
-                </div>
-            </div>
-        </div>
-        <div class ="container">
-            <div class ="jumbotron work-text">
-                    <h3>Our Work</h3>
-                    <div class="row">
-                        <div class="col-lg-6 col-sm-6">
-                               <h4> Panic Attack by Murdock </h4>
-                                <a href = "https://youtu.be/JysrtYnlpk8" target="_blank">
-                                    <img class="work img-thumbnail" src="images/panic_attack.jpg">
-                                </a>
-                        </div>                                                        
-                        <div class="col-lg-6 col-sm-6">
-                                <h4>Circles by Cook Thugless</h4>
-                                <a href = "https://www.youtube.com/watch?v=WZHZWXR1wPs" target="_blank">
-                                    <img class ="work img-thumbnail" src="images/Jack_Tubstill.jpg">
-                                </a>
-                            </div>                            
-                        </div>
-                    </div>
-        </div>
+                    </section>
+
+
+{% include "footer.html" %}
+{% block foot %} {% endblock %}
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
     </body>
-</Html>
+    {% endblock %}
+    
+</html>

@@ -1,122 +1,514 @@
-body {
-    background-color:black;
-    font-family: 'Spectral SC', serif;
+.phome{
+    background-image:url("../img/alexCLock.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:center;
 }
 
-h1 {
-	font-weight: 700;
-	font-size: 5em;
+@import url('https://fonts.googleapis.com/css?family=Spectral+SC');
+
+@font-face {
+    font-family: Crevice;
+    src: url("../fonts/Crevice Stencil.woff") format('woff');
 }
 
-h3{
-    font-size:40px;
+.pcentercontent{
+    padding-top:100px;
 }
 
-.eventimage{
-    background-image:url('../images/Events.jpg');
-    background-size: cover;
-    background-position: center;
-    max-width: 100%;
-    height: 500px;
-    align: center;
+.pcontentvids{
+    width:100%;
+    height:400px;
 }
 
-.mainimage{
-    background-image:url('../images/clock.jpg');
-    background-size: cover;
-    background-position: center;
-    max-width: 100%;
-    height: 500px;
-    align: center;
+.pcontenttitle{
+    text-align: center;
+    font-size: 20px;
 }
 
-@media all and (max-width: 1200px) { /* screen size until 1200px */
-    h1 {
-        font-size: 5em; /* 1.5x default size */
-    }
+.showcase-textbox h2 span{
+    font-family: Crevice;
 }
-@media all and (max-width: 1000px) { /* screen size until 1000px */
-    h1 {
-        font-size: 4em; /* 1.2x default size */
-        }
-    h3 {
-        font-size:30px;
-        }    
-    }
-@media all and (max-width: 800px) { /* screen size until 1000px */
-        h1 {
-            font-size: 3em; 
-            }
-        h3 {
-            font-size:30px;
-            }    
-        }
 
-@media all and (max-width: 500px) { /* screen size until 500px */
-    h1 {
-        font-size: 3em; /* 0.8x default size */
-        }
-    h3{
-        font-size:20px;
-        }    
-    h4{
-        font-size:15px;
-    }    
-    .mainimage{
-        background-position: 50%;
-        }
-    }
+body{
+    background-color:#121327;
+}
 
-.navbar-brand {
+.pjcnj {
+    margin-top:20px;
+    width: 480px;
+    height: 150px;
+}
+
+.section-title {
+    border-bottom: 0;
+}
+
+.section-title::after{
+    border-bottom: 0;
+}
+
+#contactform {
+    box-sizing: border-box;
+    color: black;
+}
+
+.form-control{
+    border:1px solid rgb(224, 224, 224);
+}
+
+.form-group {
+    width: 50%;
+
+}
+
+.pform {
+    height: 50px;
+    width: 100%;
+
+}
+
+.pcomment{
+    width:100%;
+
+}
+.pyrrhicbrand{
+    width: 200px;
+    border:2px solid;
+    border-color:white;
+    box-shadow: 7px 5px 3px #170707;
+    opacity:1;
+}
+
+.pyrrhicbrand:hover{
+    box-shadow: 7px 7px 3px rgb(255, 255, 255);
+    
+}
+
+.section-contact{
+    padding-top: 50px;
+
+}
+
+.section-description{
+    padding-top: 50px;
+}
+
+.pabout{
+    background-image:url("../img/aboutBg.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0px -315px;
+}
+
+.pmenutext{
     color:black;
+    opacity:1;
+    font-size:18px;
 }
 
-.maintext{
-    background-color:rgba(1, 0, 5, 0.4)
+.pmenutext:hover{
+    color:rgb(196, 196, 182)
 }
 
-.logo {
-    padding:20px;
-    width:700px;
-    max-height:auto;
+footer .widget_about img{
+    opacity:1;
 }
 
-.content{
-	text-align: center;
-    color: rgb(250, 250, 250);
-    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-                 0px 8px 13px rgba(0, 0, 0, 0.1),
-                 0px 18px 23px rgba(0, 0, 0, 0.1);
-}
-.work-text{
-    text-align:center;
-    color: #FFFCEA;
-    background-color: #2A3354;
-    padding-top: 2%;
+.pfolding{
+    width:927px;
+    height:600px;
 }
 
-.contact{
-    background-color:blue;
+.pmenu{
+    background-color: rgb(255, 255, 243);
+    background-color: rgb(255, 255, 243,.5)!important;
+    -pie-background:rgb(255, 255, 243,.5);
+    behavior: url(PIE.htc);
+    will-change: transform;
+    border: 3px solid black;
 }
 
-.new{
-    background-color:#f44037;
+
+
+.pslider{
+    height:500px;
+    width: auto;
 }
 
-a:link {
-    text-decoration: none;
-    color: white;
+.pcontactus{
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
 }
 
-a:visited {
-    text-decoration: none;
-    color: white;
+.team-member-box .box-cover .member-info-box p{
+    max-height: 300px;
 }
 
-a:hover {
-    text-decoration: underline;
+.team-member-box .box-cover .member-info-box{
+    padding-top: 20px;
 }
 
-.work:hover { 
-    opacity:.8;
+.phitusup{
+    text-align: center;
 }
+
+.palign-center{
+    padding-top:425px;
+}
+
+.palign-center h3{
+    color:white;
+}
+
+.palign-center h4{
+    color:white;
+}
+
+.paboutus{
+    background:#F4F4F4;
+}
+
+.pabouttext{
+    font-size:16px;
+    color: black;
+}
+
+.pstaff{
+    height:328px;
+    width:328px;
+    border: 1px solid black; 
+}
+
+.pblackbox{
+    background-color: rgba(0, 0, 0, 0.5));
+}
+
+.ptextbox{
+    background-color:#C6BDC6;
+}
+
+.pshowcase{
+    height:280px;
+    width:598px;
+}
+
+.psendbutton{
+    height:50px;
+    width:100px;
+    
+}
+
+.psend {
+    padding-left:500px;
+}
+
+.pcontact{
+    height:150px;
+}
+
+.pportfoliobody{
+    padding-top:175px;
+}
+
+.psection-portfolio{
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.pportfoliotextbox{
+    max-width:95%;
+    height:100%;
+    background-color:#C6BDC6;
+    padding: 20% 0 20% 0;
+}
+
+@media screen and (max-width: 1000px) and (min-width:701px) {
+    .pportfoliomobile{
+        width: 70%;
+        height: auto;
+        margin-left:15%;
+    }
+
+    .showcase-textbox {
+        padding: 25px 0;
+    }
+
+    .pjcnj{
+        margin-top: 0px;
+    }
+
+    .pcontainer-fluid{
+        padding-top: 50px;
+    }
+
+    .section{
+        margin-bottom:50px;
+    }
+
+    
+    footer .main-footer-wrapper{
+        padding: 10px 0 0;
+    }
+    
+    }
+
+@media screen and (max-width: 700px) and (min-width:401px) {
+
+    .pcentercontent{
+        padding-top:225px;
+    }
+    
+    .pcontentvids{
+        width:100%;
+        height:400px;
+    }
+    
+    .pcontenttitle{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .pmenu{
+        height:175px;
+    }
+
+    .pcontainer-fluid{
+        padding-left: 0;
+    }
+
+    .pteammembermobile{
+        max-height: 320px;
+        width: auto;
+    }
+
+    .team-member-box .box-cover img{
+        width: auto;
+    }
+
+    .pteamphoto{
+        max-height: 320px;
+        width:auto;
+        padding-left: 21%
+    }
+
+    .pabout{
+        background-position:  0 -100px;
+        margin-bottom:30px;
+    }
+
+    .pslider{
+        height:200px;
+    }
+
+    .psectionportfolio{
+        padding:5%
+    }
+
+    .pportfoliomobile{
+        width: 95%;
+        height: auto;
+        margin-left:0;
+    }
+
+    .pjcnj{
+        margin-bottom:-30px;
+    }
+
+    .ptextbox{
+        max-width:95%;
+        padding:0px;
+    }
+
+    .pportfoliotextbox{
+        max-width:95%;
+        padding:0px;
+        height: 100%;
+        background-color:#C6BDC6;
+    }
+
+    .pshowcasemobile{
+        margin-left:2%;
+    }
+
+    .pform{
+            max-width: 94.5%;
+            margin-left: 3%;
+        }
+
+    .pformmobile{
+        width: 100%;
+        position: relative;
+        min-height: 1px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .pcontact{
+    height:150px;
+    }
+
+    footer .widget_about img{
+        margin-bottom: 0px; 
+    }
+
+    .pyrrhicbrand{
+        margin-bottom: 0px;
+    }
+
+    .pfooterpadding{
+        padding: 10px;
+    }
+
+    .pbrandfootermobile{
+        margin-top:2px;
+        width:50%;
+    }
+    
+    footer .main-footer-wrapper{
+        padding: 10px 0 0;
+    }
+
+    .widget widget_about{
+        padding-left:30%;
+    }
+    
+    .pshowcase{
+        height: auto;
+        margin-left:0;
+    }
+    
+    .portfolio-box .box-cover img{
+        width:90%
+    }
+    
+}
+
+@media screen and (max-width: 400px) {
+    .pslider{
+        max-height: 100px;
+        max-width: auto;
+    }
+
+    .pcentercontent{
+        padding-top:225px;
+    }
+    
+    .pcontentvids{
+        width:100%;
+        height:200px;
+    }
+    
+    .pcontenttitle{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .pportfoliomobile{
+        width: 95%;
+        height: auto;
+        margin-left:2%;
+    }
+
+    .pmenu {
+        background-image: url("../img/alexCLock.jpg");
+        background-repeat:no-repeat;
+        background-position: center center;
+        background-size: 200%;
+        height: 200px;
+    }
+
+    .phome{
+        background-color:#121327;
+        background-image: url('#');
+    }
+
+    .pshowcase{
+        height: 250px;
+        
+    }
+
+    .section{
+        margin: 0 0 10px;
+     }
+     .pjcnj{
+        margin-top: 100px;
+        margin-bottom:-40px;
+     } 
+
+     .pcontactmobile{
+        padding-top:85px;
+    
+    }
+
+    .psectionportfolio{
+        padding-left:0;
+        padding-bottom: 10px;
+    }
+
+    .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12, .col-xs-13, .col-sm-13, .col-md-13, .col-lg-13, .col-xs-14, .col-sm-14, .col-md-14, .col-lg-14, .col-xs-15, .col-sm-15, .col-md-15, .col-lg-15, .col-xs-16, .col-sm-16, .col-md-16, .col-lg-16, .col-xs-17, .col-sm-17, .col-md-17, .col-lg-17, .col-xs-18, .col-sm-18, .col-md-18, .col-lg-18, .col-xs-19, .col-sm-19, .col-md-19, .col-lg-19, .col-xs-20, .col-sm-20, .col-md-20, .col-lg-20, .col-xs-21, .col-sm-21, .col-md-21, .col-lg-21, .col-xs-22, .col-sm-22, .col-md-22, .col-lg-22, .col-xs-23, .col-sm-23, .col-md-23, .col-lg-23, .col-xs-24, .col-sm-24, .col-md-24, .col-lg-24 {
+        position: relative;
+        min-height: 1px;
+        padding-left: 10px;
+        padding-right: 0px;
+    }
+
+    .pteammembermobile{
+        padding-right: 4%;
+    }
+
+    .pcontactformmobile{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #contactform{
+        margin-bottom: -10%;
+        margin-left: -3%
+    }
+
+    .pteamphoto{
+        max-height: 1000px;
+        max-width:95%;
+        padding-left:3%;
+    }
+
+    .pshowcasemobile{
+        margin-left:-14px;
+        margin-right:0;
+    }
+    footer .main-footer-wrapper{
+        padding-top:10px;
+    }
+    .pfooterpadding{
+        padding: 10px;
+    }
+
+.pform {
+    height: 50px;
+    width: 100%;
+
+}
+
+.pformmobile{
+    width: 100%;
+    position: relative;
+    min-height: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.paboutus{
+    padding-top:150px;
+}
+
+.psend{
+    padding-left:20px;
+}
+
+.psendbutton{
+    height:30px;
+}
+
+}
+
