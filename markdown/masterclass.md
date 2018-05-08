@@ -1,0 +1,1 @@
+This masterclass will teach you all you need to know about teaching a masterclass.

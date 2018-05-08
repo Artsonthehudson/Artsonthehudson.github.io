@@ -5,6 +5,8 @@ import markdown
 from flask_frozen import Freezer
 import os
 import shutil
+import sys
+
 
 app = Flask(__name__)
 freezer = Freezer(app)
@@ -26,10 +28,13 @@ def movehome():
         shutil.move('build/' + file, file)
 
 def get_markdown(md):
-    path = 'markdown/'+md
-    f = open(path, 'r')
-    content = markdown.markdown(f.read())
-    output = Markup(markdown.markdown(content))
+    path = 'markdown/'+str(md)+'.md'
+    try:
+        f = open(path, 'r').read()
+        content = markdown.markdown(f)
+        output = Markup(markdown.markdown(content))
+    except:
+        output = ""
     return output
     
 conn = connectdb()
@@ -67,6 +72,14 @@ def events():
     for event in events:
         yield {'event':event}
 
+@app.route("/events-<event>")
+def eventpage(event):   
+    cssclass = 'aeducation'
+    events = conn.execute("SELECT * FROM events where url = '{}'".format(event)).fetchall()[0]
+    title = events[1]  +' | Jersey City | Arts on the Hudson'
+    photos = conn.execute("SELECT * from photos where tags like '%,{},%'".format(event))
+    return render_template('eventpage.html', **locals())
+
 @app.route("/give")
 def give():
     title = 'Give | Jersey City | Arts on the Hudson'
@@ -79,32 +92,52 @@ def education():
     programs = conn.execute("SELECT * FROM education") 
     return render_template('education.html', **locals())
 
-@app.route("/education-<program>")
-def program(program):   
+@app.route("/education-<programurl>")
+def program(programurl):   
     cssclass = 'aeducation'
-    programs = conn.execute("SELECT * FROM education where url = '{}'".format(program)).fetchall()[0]
-    title = programs[1]  +' | Jersey City | Arts on the Hudson' 
+    program = conn.execute("SELECT * FROM education where url = '{}'".format(programurl)).fetchall()[0]
+    title = program[1]  +' | Jersey City | Arts on the Hudson' 
+    body = get_markdown(program[5])
+    output = conn.execute("""SELECT * from photos where tags like '%,{},%'""".format(programurl)).fetchall()
+    if output != []:
+        photos = output
     return render_template('program.html', **locals())
 
 @freezer.register_generator
 def program():
-    education = conn.execute("SELECT * from education").fetchall()
-    for i in education:
-        program = i[6]
-        yield {'program':program}
+    program = conn.execute("SELECT * from education").fetchall()
+    for i in program:
+        programurl = i[5]
+        yield {'programurl':programurl}
 
-@app.route("/events-<event>")
-def eventpage(event):   
+@app.route("/media")
+def media():   
+    title = 'Media | Jersey City | Arts on the Hudson' 
+    cssclass = 'amedia'
+    videos = conn.execute("SELECT * FROM media") 
+    return render_template('media.html', **locals())
+
+@app.route("/media-<videourl>")
+def video(videourl):   
     cssclass = 'aeducation'
-    events = conn.execute("SELECT * FROM events where url = '{}'".format(event)).fetchall()[0]
-    title = events[1]  +' | Jersey City | Arts on the Hudson' 
-    return render_template('eventpage.html', **locals())
+    video = conn.execute("SELECT * FROM media where url = '{}'".format(videourl)).fetchall()[0]
+    title = video[1]  +' | Jersey City | Arts on the Hudson' 
+    body = get_markdown(video[5])
+    return render_template('video.html', **locals())
+
+@freezer.register_generator
+def video():
+    media = conn.execute("SELECT * from media").fetchall()
+    for i in media:
+        videourl = i[5]
+        yield {'videourl':videourl}
+
 
 @freezer.register_generator
 def eventpage():
     events = conn.execute("SELECT * from events").fetchall()
     for i in events:
-        event = i[6]
+        event = i[5]
         yield {'event':event}
 
 if __name__ == "__main__":

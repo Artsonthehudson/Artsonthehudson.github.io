@@ -3,10 +3,38 @@
 
 		<!-- Main -->
 			<section id="main" class="wrapper">
-				<header class = 'aprogram'>
-					<h2>{{programs[1]}}</h2>
-					<p>Lorem justo in tellus aenean lacinia felis.</p>
+				<header class = 'aprogram' style = "background-image:url('images/{{program[4]}}');">
+					<h2>{{ program[1] }}</h2>
+					<p>{{program[2]}}</p>
 				</header>
+
+				<div class="inner asection">
+						<span class="image left">
+						
+						<img src="images/{{program[3]}}" alt="" class = 'acontentthumbnail' />
+				
+						</span>
+					
+				{{body}}	
+				</div>
+			</section>
+			{% if photos %}
+			<div class = 'container'>
+				<div class = 'text-center'>
+					<h2>Photo Gallery</h2>
+				</div>
+
+				<div class="box alt">
+					<div class="row uniform">
+						{% for photo in photos %}
+						<div class="4u">
+							<span class="image fit"><img src="images/{{photo[2]}}" alt="" /></span>
+						</div>
+						{% endfor %}
+					</div>
+				</div>
+		</div>
+		{% endif %}
 
 {% include "footer.html" %}
 {% block foot %} {% endblock %}

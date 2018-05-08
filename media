@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Piano Lessons | Jersey City | Arts on the Hudson</title>
+		<title>Media | Jersey City | Arts on the Hudson</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -46,22 +46,50 @@
 
 		<!-- Main -->
 			<section id="main" class="wrapper">
-				<header class = 'aprogram' style = "background-image:url('images/None');">
-					<h2>Piano Lessons</h2>
-					<p>We teach the peoplez how to ticklez the ivoriesz</p>
+				<header class = 'amedia'>
+					<h2>Promotional Media</h2>
+					<p>For artists with something to promote </p>
 				</header>
 
-				<div class="inner asection">
-						<span class="image left">
-						
-						<img src="images/pic02.jpg" alt="" class = 'acontentthumbnail' />
-				
-						</span>
-					
-				<p>We teach Piano, yes we do, we teach Piano, how about you?! </p>	
-				</div>
-			</section>
-			
+
+
+				<section id="three" class="wrapper style1">
+					<div class="inner">
+						<div class="spotlights">
+							
+							<section class = 'asection'>
+								<a href = "media-oddities">
+									<span><img src="images/oddities_bust_square.jpg" alt="" class="athumbnail" /></span>
+								</a>
+								<div class="content">
+									<h2>Oddities Market  </h2> 
+										<p>A promotional video for the Oddities Market </p>
+									<br>
+									<a href="media-oddities" class="button special small abutton">Read More</a>
+								</div>
+								
+							</section>
+							<br>
+	
+							
+							<section class = 'asection'>
+								<a href = "media-rut">
+									<span><img src="images/None" alt="" class="athumbnail" /></span>
+								</a>
+								<div class="content">
+									<h2>RUT theatrical production </h2> 
+										<p>A promotional material for RUT, by No Dominion Theater </p>
+									<br>
+									<a href="media-rut" class="button special small abutton">Read More</a>
+								</div>
+								
+							</section>
+							<br>
+	
+							
+						</div>
+					</div>
+				</section>
 
 		<!-- Footer -->
         <footer id="footer">

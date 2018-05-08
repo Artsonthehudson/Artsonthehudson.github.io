@@ -29,8 +29,9 @@
 			<nav id="menu">
 				<ul class="links">
                     <li><a class = 'amenu' href="index.html">Home</a></li>
-					<li><a class = 'amenu' href="education">Education & Programming</a></li>
+					<li><a class = 'amenu' href="education">Education</a></li>
 					<li><a class = 'amenu' href="events">Events</a></li>
+					<li><a class = 'amenu' href="media">Promotional Media</a></li>
 					<li><a class = 'amenu' href="staff">The Team</a></li>
 					<li><a class = 'amenu' href="#">Pyrrhic Productions</a></li>
                 </ul>
@@ -67,23 +68,7 @@
                         
                                 
                                 <section>
-                                    <span class="aimage"><img src="images/pic01.jpg" alt="" /></span>
-                                    <div class="content">
-                                        <h2>Dope event one </h2> 
-                                        <p class ='aevent-p'> 2018-05-06 -- 123 location street<br>8:00pm</p> 
-                    
-                                        ---------------------------------
-                                        <br>
-                                        <p class ='aevent-p'>This event is going to be so cool omg!</p> 
-                                        <br>
-                                        <a href="events-event1" class="button special small abutton">Read More</a>
-
-                                    </div>
-                                </section>
-        
-                                
-                                <section>
-                                    <span class="aimage"><img src="images/pic03.jpg" alt="" /></span>
+                                    <span><img src="images/backturned_square.jpg" alt=""  class="athumbnail" /></span>
                                     <div class="content">
                                         <h2>New event </h2> 
                                         <p class ='aevent-p'> 2018-05-07 -- 382 Russian population<br>5:00pm</p> 
@@ -119,8 +104,8 @@
 					</ul>
 					<ul class="links">
 						<li><a href="index.html">Home</a></li>
-						<li><a href="contact.html">Contact</a></li>
-						<li><a href="donate.html">Donate</a></li>
+						<li><a href="contact">Contact</a></li>
+						<li><a href="donate">Donate</a></li>
 						<li><a href="pyrrhicproductions.com">Pyrrhic Productions</a></li>
 					</ul>
 					<p class="copyright">&copy; Arts on the Hudson 2018. All rights reserved.</p>

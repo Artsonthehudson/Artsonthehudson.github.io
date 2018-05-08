@@ -29,8 +29,9 @@
 			<nav id="menu">
 				<ul class="links">
                     <li><a class = 'amenu' href="index.html">Home</a></li>
-					<li><a class = 'amenu' href="education">Education & Programming</a></li>
+					<li><a class = 'amenu' href="education">Education</a></li>
 					<li><a class = 'amenu' href="events">Events</a></li>
+					<li><a class = 'amenu' href="media">Promotional Media</a></li>
 					<li><a class = 'amenu' href="staff">The Team</a></li>
 					<li><a class = 'amenu' href="#">Pyrrhic Productions</a></li>
                 </ul>
@@ -45,10 +46,46 @@
 
 		<!-- Main -->
 			<section id="main" class="wrapper">
-				<header class = 'aprogram'>
+				<header class = 'aprogram' style = "background-image:url('images/mickey_square.jpg');">
 					<h2>Headstart Youth Craft Classes</h2>
-					<p>Lorem justo in tellus aenean lacinia felis.</p>
+					<p>We teach the kidziz about the craftziz</p>
 				</header>
+
+				<div class="inner asection">
+						<span class="image left">
+						
+						<img src="images/mickey_square.jpg" alt="" class = 'acontentthumbnail' />
+				
+						</span>
+					
+				<p>To foster the development of a new generation of artists  and thinkers, Arts on the Hudson partners with Head Start to pilot a program of arts workshops for children at the Bergenview location. Art engages young children by supporting their creative and social development; research has shown that students involved in the arts are more likely to be academically successful, graduate from college, and ultimately possess the creativity needed to compete in the contemporary job market.</p>
+
+<p>Arts on the Hudson provide 30 minute long arts and crafts workshops on a weekly basis for each classroom.  The classes not only build students' creativity, but further engage them in cross-curricular activities that promote STEM skills, social awareness, and cultural competence. The lead teacher for these programs is Karla Aybar, a lifelong resident of Jersey City and a graduated summa cum laude from NJCU with a BA degree in Psychology.  Her experience working with children is extensive; in addition to eight years working as a nanny for various families in our community, she also has experience counseling elementary school students at the Boys &amp; Girls Club of Hudson County.</p>
+
+<p>We look forward to challenging, inspiring, and empowering the next generation of students at the Bergenview Head Start, each and every day!</p>	
+				</div>
+			</section>
+			
+			<div class = 'container'>
+				<div class = 'text-center'>
+					<h2>Photo Gallery</h2>
+				</div>
+
+				<div class="box alt">
+					<div class="row uniform">
+						
+						<div class="4u">
+							<span class="image fit"><img src="images/education2.jpg" alt="" /></span>
+						</div>
+						
+						<div class="4u">
+							<span class="image fit"><img src="images/piano_square.jpg" alt="" /></span>
+						</div>
+						
+					</div>
+				</div>
+		</div>
+		
 
 		<!-- Footer -->
         <footer id="footer">
@@ -62,8 +99,8 @@
 					</ul>
 					<ul class="links">
 						<li><a href="index.html">Home</a></li>
-						<li><a href="contact.html">Contact</a></li>
-						<li><a href="donate.html">Donate</a></li>
+						<li><a href="contact">Contact</a></li>
+						<li><a href="donate">Donate</a></li>
 						<li><a href="pyrrhicproductions.com">Pyrrhic Productions</a></li>
 					</ul>
 					<p class="copyright">&copy; Arts on the Hudson 2018. All rights reserved.</p>

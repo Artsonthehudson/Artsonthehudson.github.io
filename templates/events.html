@@ -31,16 +31,16 @@
                         {% if event == 'events' %}
                                 {% for event in upcomingevents %}
                                 <section>
-                                    <span class="aimage"><img src="images/{{event[4]}}" alt="" /></span>
+                                    <span><img src="images/{{event[3]}}" alt=""  class="athumbnail" /></span>
                                     <div class="content">
                                         <h2>{{event[1]}} </h2> 
-                                        <p class ='aevent-p'> {{event[7]}} -- {{event[9]}}<br>{{event[8]}}</p> 
+                                        <p class ='aevent-p'> {{event[6]}} -- {{event[8]}}<br>{{event[7]}}</p> 
                     
                                         ---------------------------------
                                         <br>
                                         <p class ='aevent-p'>{{event[2]}}</p> 
                                         <br>
-                                        <a href="events-{{event[6]}}" class="button special small abutton">Read More</a>
+                                        <a href="events-{{event[5]}}" class="button special small abutton">Read More</a>
 
                                     </div>
                                 </section>
@@ -52,16 +52,16 @@
                         {% if event == 'pastevents' %}
                         {% for event in pastevents %}
                         <section>
-                            <span class="aimage"><img src="images/{{event[4]}}" alt="" /></span>
+                            <span class="aimage"><img src="images/{{event[3]}}" alt="" /></span>
                             <div class="content">
                                     <h2>{{event[1]}} </h2> 
-                                    <p class ='aevent-p'> {{event[7]}} -- {{event[9]}}<br>{{event[8]}}</p> 
+                                    <p class ='aevent-p'> {{event[6]}} -- {{event[8]}}<br>{{event[7]}}</p> 
                 
                                     ---------------------------------
                                     <br>
                                     <p class ='aevent-p'>{{event[2]}}</p> 
                                     <br>
-                                    <a href="events-{{event[6]}}" class="button special small abutton">Read More</a>
+                                    <a href="events-{{event[5]}}" class="button special small abutton">Read More</a>
 
 
                             </div>

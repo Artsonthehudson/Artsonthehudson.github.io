@@ -29,8 +29,9 @@
 			<nav id="menu">
 				<ul class="links">
                     <li><a class = 'amenu' href="index.html">Home</a></li>
-					<li><a class = 'amenu' href="education">Education & Programming</a></li>
+					<li><a class = 'amenu' href="education">Education</a></li>
 					<li><a class = 'amenu' href="events">Events</a></li>
+					<li><a class = 'amenu' href="media">Promotional Media</a></li>
 					<li><a class = 'amenu' href="staff">The Team</a></li>
 					<li><a class = 'amenu' href="#">Pyrrhic Productions</a></li>
                 </ul>
@@ -90,8 +91,8 @@
 					</ul>
 					<ul class="links">
 						<li><a href="index.html">Home</a></li>
-						<li><a href="contact.html">Contact</a></li>
-						<li><a href="donate.html">Donate</a></li>
+						<li><a href="contact">Contact</a></li>
+						<li><a href="donate">Donate</a></li>
 						<li><a href="pyrrhicproductions.com">Pyrrhic Productions</a></li>
 					</ul>
 					<p class="copyright">&copy; Arts on the Hudson 2018. All rights reserved.</p>

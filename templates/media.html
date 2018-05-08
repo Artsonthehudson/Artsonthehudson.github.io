@@ -4,26 +4,29 @@
 		<!-- Main -->
 			<section id="main" class="wrapper">
 				<header class = '{{cssclass}}'>
-					<h2>Education</h2>
-					<p>Lorem justo in tellus aenean lacinia felis.</p>
+					<h2>Promotional Media</h2>
+					<p>For artists with something to promote </p>
 				</header>
+
+
 
 				<section id="three" class="wrapper style1">
 					<div class="inner">
 						<div class="spotlights">
-							{% for program in programs %}
-							<section>
-								<a href = "education-{{program[5]}}">
-									<span><img src="images/{{program[3]}}" alt="" class="athumbnail" /></span>
+							{% for video in videos %}
+							<section class = 'asection'>
+								<a href = "media-{{video[5]}}">
+									<span><img src="images/{{video[3]}}" alt="" class="athumbnail" /></span>
 								</a>
 								<div class="content">
-									<h2>{{program[1]}} </h2> 
-										<p>{{program[2]}} </p>
+									<h2>{{video[1]}} </h2> 
+										<p>{{video[2]}} </p>
 									<br>
-									<a href="education-{{program[5]}}" class="button special small abutton">Read More</a>
+									<a href="media-{{video[5]}}" class="button special small abutton">Read More</a>
 								</div>
 								
 							</section>
+							<br>
 	
 							{% endfor %}
 						</div>

@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Piano Lessons | Jersey City | Arts on the Hudson</title>
+		<title>Oddities Market  | Jersey City | Arts on the Hudson</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -46,22 +46,37 @@
 
 		<!-- Main -->
 			<section id="main" class="wrapper">
-				<header class = 'aprogram' style = "background-image:url('images/None');">
-					<h2>Piano Lessons</h2>
-					<p>We teach the peoplez how to ticklez the ivoriesz</p>
+				<header class = 'aventpage' style = "background-image:url('images/oddities_bust.jpg');">
+					<h2>Oddities Market </h2>
+					<p class = 'aevent-p'>A promotional video for the Oddities Market</p>
+	
 				</header>
 
-				<div class="inner asection">
-						<span class="image left">
-						
-						<img src="images/pic02.jpg" alt="" class = 'acontentthumbnail' />
-				
-						</span>
+				<div class="inner">
+					<span class="image left"><img src="images/pic08.jpg" alt="" /></span>
+					<p>To foster the development of a new generation of artists  and thinkers, Arts on the Hudson partners with Head Start to pilot a program of arts workshops for children at the Bergenview location. Art engages young children by supporting their creative and social development; research has shown that students involved in the arts are more likely to be academically successful, graduate from college, and ultimately possess the creativity needed to compete in the contemporary job market.   
 					
-				<p>We teach Piano, yes we do, we teach Piano, how about you?! </p>	
+					Arts on the Hudson will begin provids 30 minute long arts and crafts workshops on a weekly basis for each classroom.  The classes not only build students’ creativity, but further engage them in cross-curricular activities that promote STEM skills, social awareness, and cultural competence.  The lead teacher for these programs is Karla Aybar a lifelong resident of Jersey City and a graduated summa cum laude from NJCU with a BA degree in Psychology.  Her experience working with children is extensive; in addition to eight years working as a nanny for various families in our community, she also has experience counseling elementary school students at the Boys & Girls Club of Hudson County.
+					
+					We look forward to challenging, inspiring, and empowering the next generation of students at the Bergenview Head Start, each and every day! 
+					</p>	
 				</div>
-			</section>
-			
+
+				<section class="section section-showcase">
+					<div class="container-fluid pcontainer-fluid">
+						   <div class="row">
+								<div class="row showcase-container-wrapper pshowcasemobile pcentercontent ">
+									<div class = 'container'>
+	  
+									  <p class="pcontenttitle"> Oddities Market  </p>
+											  <iframe class ='pcontentvids' src="None" 
+											  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>   
+									  </div>
+								  </div>
+							  </div>
+						  </div>
+					</div>
+				</section>
 
 		<!-- Footer -->
         <footer id="footer">

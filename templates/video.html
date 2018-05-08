@@ -3,13 +3,10 @@
 
 		<!-- Main -->
 			<section id="main" class="wrapper">
-				<header class = 'aventpage' style = "background-image:url('images/{{events[4]}}');">
-					<h2>{{events[1]}}</h2>
-					<p class = 'aevent-p'>{{events[2]}}</p>
-					<p class = 'aevent-p'>{{events[8]}}</p>
-					<p class = 'aevent-p'>{{events[6]}}</p>
-					<p class = 'aevent-p'>{{events[7]}}</p>
-					
+				<header class = 'aventpage' style = "background-image:url('images/{{video[4]}}');">
+					<h2>{{video[1]}}</h2>
+					<p class = 'aevent-p'>{{video[2]}}</p>
+	
 				</header>
 
 				<div class="inner">
@@ -21,6 +18,23 @@
 					We look forward to challenging, inspiring, and empowering the next generation of students at the Bergenview Head Start, each and every day! 
 					</p>	
 				</div>
+
+				<section class="section section-showcase">
+					<div class="container-fluid pcontainer-fluid">
+						   <div class="row">
+								<div class="row showcase-container-wrapper pshowcasemobile pcentercontent ">
+									<div class = 'container'>
+	  
+									  <p class="pcontenttitle"> {{video[1]}} </p>
+											  <iframe class ='pcontentvids' src="{{video[6]}}" 
+											  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>   
+									  </div>
+								  </div>
+							  </div>
+						  </div>
+					</div>
+				</section>
+
 {% include "footer.html" %}
 {% block foot %} {% endblock %}
 
